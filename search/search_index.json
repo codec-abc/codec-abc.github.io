@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Packages\n\n\n\n\n.", 
+            "title": "pony-sdl-2-master"
+        }, 
+        {
+            "location": "/.--index/", 
+            "text": "No package doc string provided for ..\n\n\nPublic Types\n\n\n\n\nstruct SDLEvent", 
+            "title": "Package"
+        }, 
+        {
+            "location": "/.--index/#public-types", 
+            "text": "struct SDLEvent", 
+            "title": "Public Types"
+        }, 
+        {
+            "location": "/.-SDLEvent/", 
+            "text": "SDLEvent\n\n\nstruct ref SDLEvent\n\n\n\n\nConstructors\n\n\ncreate\n\n\nnew ref create()\n: SDLEvent ref^\n\n\n\n\nReturns\n\n\n\n\nSDLEvent\n ref^", 
+            "title": "struct SDLEvent"
+        }, 
+        {
+            "location": "/.-SDLEvent/#sdlevent", 
+            "text": "struct ref SDLEvent", 
+            "title": "SDLEvent"
+        }, 
+        {
+            "location": "/.-SDLEvent/#constructors", 
+            "text": "", 
+            "title": "Constructors"
+        }, 
+        {
+            "location": "/.-SDLEvent/#create", 
+            "text": "new ref create()\n: SDLEvent ref^", 
+            "title": "create"
+        }, 
+        {
+            "location": "/.-SDLEvent/#returns", 
+            "text": "SDLEvent  ref^", 
+            "title": "Returns"
+        }, 
+        {
+            "location": "/src/main/", 
+            "text": "use \nlib:SDL2\n\nuse \nlib:SDL2main\n\nuse \ntime\n\nuse \ndebug\n\n\nuse @SDL_Init[I32](flags: U32)\nuse @SDL_CreateWindow[Pointer[_SDLWindow val] ref](title: Pointer[U8] tag, x: I32, y: I32, w: I32, h: I32, flags: U32)\nuse @SDL_CreateRenderer[Pointer[_SDLRenderer val] ref](window: Pointer[_SDLWindow val] box, index: I32, flags: U32)\nuse @SDL_DestroyRenderer[None](renderer: Pointer[_SDLRenderer val] box)\nuse @SDL_DestroyWindow[None](window: Pointer[_SDLWindow val] box)\nuse @SDL_RenderClear[I32](renderer: Pointer[_SDLRenderer val] box)\nuse @SDL_RenderPresent[None](renderer: Pointer[_SDLRenderer val] box)\nuse @SDL_SetRenderDrawColor[I32](renderer: Pointer[_SDLRenderer val] box, r: U8, g: U8, b: U8, a: U8)\nuse @SDL_RenderFillRect[I32](renderer: Pointer[_SDLRenderer val] box, rect: MaybePointer[_SDLRect ref] box)\nuse @SDL_PollEvent[I32](event : Pointer[U8] tag)\n\nstruct ref _SDLRect\n    var x: I32 = 0\n    var y: I32 = 0\n    var w: I32 = 0\n    var h: I32 = 0\n\n    new create(x1: I32, y1: I32, w1: I32, h1: I32) =\n\n       x = x1\n       y = y1\n       w = w1\n       h = h1\n\nstruct SDLEvent\n    var array : Array[U8]\n\n    new create() =\n\n       array = Array[U8].init(0, 56)\n\n// see https://github.com/Rust-SDL2/rust-sdl2/blob/6e9a00a0d254c6b6e3cc0024494f84c1cc577534/sdl2-sys/src/event.rs\nprimitive SdlQuitEvent\n    fun apply() : U32 =\n 256\n\nprimitive SDLEventTranslator\n\n    fun type_of_event(event : SDLEvent) : U32 =\n\n        try\n            var byte0 : U8 = event.array(0)?\n            var byte1 : U8 = event.array(1)?\n            var byte2 : U8 = event.array(2)?\n            var byte3 : U8 = event.array(3)?\n\n            // Debug.out(byte0.string())\n            // Debug.out(byte1.string())\n            // Debug.out(byte2.string())\n            // Debug.out(byte3.string())\n            // TODO use byte shiffting instead of that ugly multiplications\n            byte0.u32() + (byte1.u32() * 256) + (byte2.u32() * 256 * 256) + (byte3.u32() * 256 * 256 * 256)\n        else\n            0\n        end\n\nprimitive _SDLWindow\nprimitive _SDLRenderer\n\nprimitive SDL2\n    fun init_video(): U32 =\n\n         0x00000020\n\n    fun window_shown(): U32 =\n \n        0x00000004\n\n    fun renderer_accelerated(): U32 =\n\n        0x00000002\n\n    fun renderer_presentvsync(): U32 =\n \n        0x00000004\n\n\nclass val GameTime\n\n    let second : I64\n    let nano_second : I64\n\n    new iso create(s : I64, ns : I64) =\n\n        second = s\n        nano_second = ns\n\n    fun delta(s : I64, ns : I64) : GameTime val^ =\n\n        if (ns \n nano_second) then\n            let r = GameTime(s - 1 - second, (ns - nano_second) + 1_000_000_000)\n            r\n        else\n            let r = GameTime(s - second, ns - nano_second)\n            r\n        end\n\nactor Main\n    let _env : Env\n\n    var _event : SDLEvent\n    var window: Pointer[_SDLWindow val] ref\n    var renderer: Pointer[_SDLRenderer val] ref\n    var is_done : Bool = false\n    var game_time : GameTime\n    var frame_index : U64 = 0\n\n    new create(env : Env) =\n\n        _env = env\n        @SDL_Init(SDL2.init_video())\n        window = @SDL_CreateWindow(\nHello World!\n.cstring(), 100, 100, 640, 480, SDL2.window_shown())\n        renderer = @SDL_CreateRenderer(window, -1, SDL2.renderer_accelerated() or SDL2.renderer_presentvsync())\n        _event = SDLEvent\n        (let s : I64, let ns : I64)= Time.now()\n        game_time = GameTime(s, ns)\n        tick()\n\n    be tick() =\n\n        (let s : I64, let ns : I64) = Time.now()\n        let delta = game_time.delta(s, ns)\n\n        if (delta.second \n 1) or (delta.nano_second \n 6_000_000) then\n            game_time = GameTime(s, ns)\n            loop(delta)\n            frame_index = frame_index + 1\n        end\n\n        if not is_done then\n            tick()\n        end\n\n    fun ref loop(delta : GameTime) =\n\n        @SDL_RenderClear(renderer)\n\n        @SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255)\n        @SDL_RenderFillRect(renderer, MaybePointer[_SDLRect].none())\n\n        @SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255)\n        let cosine = (((game_time.second.f64() * 1_000_000_000 ) + game_time.nano_second.f64()) / F64(1_000_000_000)).cos()\n        let x : F64 = F64(100) + (F64(100) * cosine)\n        let rect = _SDLRect(x.i32(), 100, 200, 200)\n        @SDL_RenderFillRect(renderer, MaybePointer[_SDLRect](rect))\n\n        @SDL_RenderPresent(renderer)\n        var result : I32 = @SDL_PollEvent(_event.array.cpointer()) \n\n        while result != 0 do\n            //_env.out.print(\nresult is \n + result.string())\n            var event_type = SDLEventTranslator.type_of_event(_event)\n            //_env.out.print(\nevent type is \n + event_type.string())\n            if event_type == SdlQuitEvent() then\n                //_env.out.print(\nis done\n)\n                quit()\n            end\n            result = @SDL_PollEvent(_event.array.cpointer())\n        end\n\n    fun ref quit() : None =\n\n        Debug.out(\nis done\n)\n        @SDL_DestroyRenderer(renderer)\n        @SDL_DestroyWindow(window)\n        is_done = true", 
+            "title": "main.pony"
+        }
+    ]
+}

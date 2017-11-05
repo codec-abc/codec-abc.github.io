@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>main.pony - pony-sdl-2-master</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  <link href="../../extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "main.pony";
+    var mkdocs_page_input_path = "src\\main.md";
+    var mkdocs_page_url = "/src/main/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> pony-sdl-2-master</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">pony-sdl-2-master</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">package .</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../.--index/">Package</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-SDLEvent/">struct SDLEvent</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">source</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">main.pony</a>
+    <ul class="subnav">
+            
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">pony-sdl-2-master</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>source &raquo;</li>
+        
+      
+    
+    <li>main.pony</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <div class="pony-full-source" hidden>
+use &quot;lib:SDL2&quot;
+use &quot;lib:SDL2main&quot;
+use &quot;time&quot;
+use &quot;debug&quot;
+
+use @SDL_Init[I32](flags: U32)
+use @SDL_CreateWindow[Pointer[_SDLWindow val] ref](title: Pointer[U8] tag, x: I32, y: I32, w: I32, h: I32, flags: U32)
+use @SDL_CreateRenderer[Pointer[_SDLRenderer val] ref](window: Pointer[_SDLWindow val] box, index: I32, flags: U32)
+use @SDL_DestroyRenderer[None](renderer: Pointer[_SDLRenderer val] box)
+use @SDL_DestroyWindow[None](window: Pointer[_SDLWindow val] box)
+use @SDL_RenderClear[I32](renderer: Pointer[_SDLRenderer val] box)
+use @SDL_RenderPresent[None](renderer: Pointer[_SDLRenderer val] box)
+use @SDL_SetRenderDrawColor[I32](renderer: Pointer[_SDLRenderer val] box, r: U8, g: U8, b: U8, a: U8)
+use @SDL_RenderFillRect[I32](renderer: Pointer[_SDLRenderer val] box, rect: MaybePointer[_SDLRect ref] box)
+use @SDL_PollEvent[I32](event : Pointer[U8] tag)
+
+struct ref _SDLRect
+    var x: I32 = 0
+    var y: I32 = 0
+    var w: I32 = 0
+    var h: I32 = 0
+
+    new create(x1: I32, y1: I32, w1: I32, h1: I32) =&gt;
+       x = x1
+       y = y1
+       w = w1
+       h = h1
+
+struct SDLEvent
+    var array : Array[U8]
+
+    new create() =&gt;
+       array = Array[U8].init(0, 56)
+
+// see https://github.com/Rust-SDL2/rust-sdl2/blob/6e9a00a0d254c6b6e3cc0024494f84c1cc577534/sdl2-sys/src/event.rs
+primitive SdlQuitEvent
+    fun apply() : U32 =&gt; 256
+
+primitive SDLEventTranslator
+
+    fun type_of_event(event : SDLEvent) : U32 =&gt;
+        try
+            var byte0 : U8 = event.array(0)?
+            var byte1 : U8 = event.array(1)?
+            var byte2 : U8 = event.array(2)?
+            var byte3 : U8 = event.array(3)?
+
+            // Debug.out(byte0.string())
+            // Debug.out(byte1.string())
+            // Debug.out(byte2.string())
+            // Debug.out(byte3.string())
+            // TODO use byte shiffting instead of that ugly multiplications
+            byte0.u32() + (byte1.u32() * 256) + (byte2.u32() * 256 * 256) + (byte3.u32() * 256 * 256 * 256)
+        else
+            0
+        end
+
+primitive _SDLWindow
+primitive _SDLRenderer
+
+primitive SDL2
+    fun init_video(): U32 =&gt;
+         0x00000020
+
+    fun window_shown(): U32 =&gt; 
+        0x00000004
+
+    fun renderer_accelerated(): U32 =&gt;
+        0x00000002
+
+    fun renderer_presentvsync(): U32 =&gt; 
+        0x00000004
+
+
+class val GameTime
+
+    let second : I64
+    let nano_second : I64
+
+    new iso create(s : I64, ns : I64) =&gt;
+        second = s
+        nano_second = ns
+
+    fun delta(s : I64, ns : I64) : GameTime val^ =&gt;
+        if (ns &lt; nano_second) then
+            let r = GameTime(s - 1 - second, (ns - nano_second) + 1_000_000_000)
+            r
+        else
+            let r = GameTime(s - second, ns - nano_second)
+            r
+        end
+
+actor Main
+    let _env : Env
+
+    var _event : SDLEvent
+    var window: Pointer[_SDLWindow val] ref
+    var renderer: Pointer[_SDLRenderer val] ref
+    var is_done : Bool = false
+    var game_time : GameTime
+    var frame_index : U64 = 0
+
+    new create(env : Env) =&gt;
+        _env = env
+        @SDL_Init(SDL2.init_video())
+        window = @SDL_CreateWindow(&quot;Hello World!&quot;.cstring(), 100, 100, 640, 480, SDL2.window_shown())
+        renderer = @SDL_CreateRenderer(window, -1, SDL2.renderer_accelerated() or SDL2.renderer_presentvsync())
+        _event = SDLEvent
+        (let s : I64, let ns : I64)= Time.now()
+        game_time = GameTime(s, ns)
+        tick()
+
+    be tick() =&gt;
+        (let s : I64, let ns : I64) = Time.now()
+        let delta = game_time.delta(s, ns)
+
+        if (delta.second &gt; 1) or (delta.nano_second &gt; 6_000_000) then
+            game_time = GameTime(s, ns)
+            loop(delta)
+            frame_index = frame_index + 1
+        end
+
+        if not is_done then
+            tick()
+        end
+
+    fun ref loop(delta : GameTime) =&gt;
+        @SDL_RenderClear(renderer)
+
+        @SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255)
+        @SDL_RenderFillRect(renderer, MaybePointer[_SDLRect].none())
+
+        @SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255)
+        let cosine = (((game_time.second.f64() * 1_000_000_000 ) + game_time.nano_second.f64()) / F64(1_000_000_000)).cos()
+        let x : F64 = F64(100) + (F64(100) * cosine)
+        let rect = _SDLRect(x.i32(), 100, 200, 200)
+        @SDL_RenderFillRect(renderer, MaybePointer[_SDLRect](rect))
+
+        @SDL_RenderPresent(renderer)
+        var result : I32 = @SDL_PollEvent(_event.array.cpointer()) 
+
+        while result != 0 do
+            //_env.out.print(&quot;result is &quot; + result.string())
+            var event_type = SDLEventTranslator.type_of_event(_event)
+            //_env.out.print(&quot;event type is &quot; + event_type.string())
+            if event_type == SdlQuitEvent() then
+                //_env.out.print(&quot;is done&quot;)
+                quit()
+            end
+            result = @SDL_PollEvent(_event.array.cpointer())
+        end
+
+    fun ref quit() : None =&gt;
+        Debug.out(&quot;is done&quot;)
+        @SDL_DestroyRenderer(renderer)
+        @SDL_DestroyWindow(window)
+        is_done = true
+</div>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../../.-SDLEvent/" class="btn btn-neutral" title="struct SDLEvent"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../.-SDLEvent/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../extra.js"></script>
+      <script src="../../search/require.js"></script>
+      <script src="../../search/search.js"></script>
+
+</body>
+</html>
