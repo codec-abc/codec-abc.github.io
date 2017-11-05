@@ -35,6 +35,8 @@ try
     var line_numbers = document.getElementsByClassName("code-line-numbers")[0];
     var elem = line_numbers.children[line_number - 1];
     elem.style.backgroundColor = "yellow";
+    elem.focus();
+    elem.scrollIntoView();
 }
 catch (e) 
 {
