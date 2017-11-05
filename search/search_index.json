@@ -2,41 +2,41 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Packages\n\n\n\n\n.", 
+            "text": "Packages\n\n\n\n\nmain", 
             "title": "pony-sdl-2-master"
         }, 
         {
-            "location": "/.--index/", 
+            "location": "/main_index/", 
             "text": "No package doc string provided for ..\n\n\nPublic Types\n\n\n\n\nstruct SDLEvent", 
             "title": "Package"
         }, 
         {
-            "location": "/.--index/#public-types", 
+            "location": "/main_index/#public-types", 
             "text": "struct SDLEvent", 
             "title": "Public Types"
         }, 
         {
-            "location": "/.-SDLEvent/", 
+            "location": "/main_SDLEvent/", 
             "text": "SDLEvent\n\n\nstruct ref SDLEvent\n\n\n\n\nConstructors\n\n\ncreate\n\n\nnew ref create()\n: SDLEvent ref^\n\n\n\n\nReturns\n\n\n\n\nSDLEvent\n ref^", 
             "title": "struct SDLEvent"
         }, 
         {
-            "location": "/.-SDLEvent/#sdlevent", 
+            "location": "/main_SDLEvent/#sdlevent", 
             "text": "struct ref SDLEvent", 
             "title": "SDLEvent"
         }, 
         {
-            "location": "/.-SDLEvent/#constructors", 
+            "location": "/main_SDLEvent/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-SDLEvent/#create", 
+            "location": "/main_SDLEvent/#create", 
             "text": "new ref create()\n: SDLEvent ref^", 
             "title": "create"
         }, 
         {
-            "location": "/.-SDLEvent/#returns", 
+            "location": "/main_SDLEvent/#returns", 
             "text": "SDLEvent  ref^", 
             "title": "Returns"
         }, 
