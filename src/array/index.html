@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>array.pony - ponydocTest</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  <link href="../../extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "array.pony";
+    var mkdocs_page_input_path = "src\\array.md";
+    var mkdocs_page_url = "/src/array/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> ponydocTest</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">ponydocTest</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">package .</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../.--index/">Package</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-ActorInFileStringDotPony/">actor ActorInFileStringDotPony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-ARandomActor/">actor ARandomActor</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-SDLEvent/">struct SDLEvent</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-SdlQuitEvent/">primitive SdlQuitEvent</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-SDLEventTranslator/">primitive SDLEventTranslator</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-SDL2/">primitive SDL2</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-GameTime/">class GameTime</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../.-Main/">actor Main</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">package builtin</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../builtin--index/">Package</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-U8/">primitive U8</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-U16/">primitive U16</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-U32/">primitive U32</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-U64/">primitive U64</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ULong/">primitive ULong</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-USize/">primitive USize</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-U128/">primitive U128</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Unsigned/">type Unsigned</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Stringable/">interface Stringable</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-String/">class String</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-StringBytes/">class StringBytes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-StringRunes/">class StringRunes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-StdinNotify/">interface StdinNotify</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-DisposableActor/">interface DisposableActor</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Stdin/">actor Stdin</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ByteSeq/">type ByteSeq</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ByteSeqIter/">interface ByteSeqIter</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-OutStream/">interface OutStream</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-StdStream/">actor StdStream</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-SourceLoc/">interface SourceLoc</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-I8/">primitive I8</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-I16/">primitive I16</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-I32/">primitive I32</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-I64/">primitive I64</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ILong/">primitive ILong</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ISize/">primitive ISize</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-I128/">primitive I128</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Signed/">type Signed</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Seq/">interface Seq</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Real/">trait Real</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Integer/">trait Integer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-FloatingPoint/">trait FloatingPoint</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Number/">type Number</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Int/">type Int</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ReadSeq/">interface ReadSeq</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ReadElement/">interface ReadElement</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Pointer/">struct Pointer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Platform/">primitive Platform</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-None/">primitive None</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-MaybePointer/">struct MaybePointer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Iterator/">interface Iterator</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-F32/">primitive F32</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-F64/">primitive F64</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Float/">type Float</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Env/">class Env</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-DoNotOptimise/">primitive DoNotOptimise</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Less/">primitive Less</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Equal/">primitive Equal</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Greater/">primitive Greater</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Compare/">type Compare</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-HasEq/">interface HasEq</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Equatable/">interface Equatable</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Comparable/">interface Comparable</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Bool/">primitive Bool</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-AsioEventID/">type AsioEventID</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-AsioEventNotify/">interface AsioEventNotify</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-AsioEvent/">primitive AsioEvent</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Array/">class Array</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ArrayKeys/">class ArrayKeys</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ArrayValues/">class ArrayValues</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-ArrayPairs/">class ArrayPairs</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-Any/">interface Any</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../builtin-AmbientAuth/">primitive AmbientAuth</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">package collections</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../collections--index/">Package</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-Sort/">primitive Sort</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-Set/">type Set</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-SetIs/">type SetIs</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-HashSet/">class HashSet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-SetValues/">class SetValues</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-RingBuffer/">class RingBuffer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-Reverse/">class Reverse</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-Range/">class Range</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-Map/">type Map</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-MapIs/">type MapIs</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-HashMap/">class HashMap</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-MapKeys/">class MapKeys</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-MapValues/">class MapValues</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-MapPairs/">class MapPairs</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-ListNode/">class ListNode</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-List/">class List</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-ListNodes/">class ListNodes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-ListValues/">class ListValues</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-Hashable/">interface Hashable</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-HashFunction/">interface HashFunction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-HashEq/">primitive HashEq</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-HashIs/">primitive HashIs</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-HashByteSeq/">primitive HashByteSeq</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-Flag/">interface Flag</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../collections-Flags/">class Flags</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">package debug</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../debug--index/">Package</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../debug-DebugOut/">primitive DebugOut</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../debug-DebugErr/">primitive DebugErr</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../debug-DebugStream/">type DebugStream</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../debug-Debug/">primitive Debug</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">package ponytest</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../ponytest--index/">Package</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ponytest-UnitTest/">trait UnitTest</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ponytest-TestList/">trait TestList</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ponytest-ITest/">interface ITest</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ponytest-TestHelper/">class TestHelper</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ponytest-PonyTest/">actor PonyTest</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">package time</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../time--index/">Package</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../time-Timers/">actor Timers</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../time-TimerNotify/">interface TimerNotify</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../time-Timer/">class Timer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../time-Time/">primitive Time</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../time-Nanos/">primitive Nanos</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../time-Date/">class Date</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">source</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../string/">string.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../otherfile/">otherfile.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../main/">main.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../unsigned/">unsigned.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stringable/">stringable.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../string--1/">string.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stdin/">stdin.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../std_stream/">std_stream.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../source_loc/">source_loc.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../signed/">signed.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../seq/">seq.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../real/">real.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../read_seq/">read_seq.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../pointer/">pointer.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../platform/">platform.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../none/">none.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../maybe_pointer/">maybe_pointer.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../iterator/">iterator.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../float/">float.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../env/">env.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../do_not_optimise/">do_not_optimise.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../compare/">compare.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../bool/">bool.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../asio_event/">asio_event.pony</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">array.pony</a>
+    <ul class="subnav">
+            
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../any/">any.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ambient_auth/">ambient_auth.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../sort/">sort.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../set/">set.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ring_buffer/">ring_buffer.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../reverse/">reverse.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../range/">range.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../map/">map.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../list_node/">list_node.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../list/">list.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../hashable/">hashable.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../flag/">flag.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../debug/">debug.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../unit_test/">unit_test.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../test_list/">test_list.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../test_helper/">test_helper.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../pony_test/">pony_test.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../timers/">timers.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../timer_notify/">timer_notify.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../timer/">timer.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../time/">time.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../nanos/">nanos.pony</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../date/">date.pony</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">ponydocTest</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>source &raquo;</li>
+        
+      
+    
+    <li>array.pony</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <div class="pony-full-source" hidden> </div>
+
+<pre><code class="pony">class Array[A] is Seq[A]
+  &quot;&quot;&quot;
+  Contiguous, resizable memory to store elements of type A.
+  &quot;&quot;&quot;
+  var _size: USize
+  var _alloc: USize
+  var _ptr: Pointer[A]
+
+  new create(len: USize = 0) =&gt;
+    &quot;&quot;&quot;
+    Create an array with zero elements, but space for len elements.
+    &quot;&quot;&quot;
+    _size = 0
+
+    if len &gt; 0 then
+      _alloc = len.next_pow2().max(len).max(8)
+      _ptr = Pointer[A]._alloc(_alloc)
+    else
+      _alloc = 0
+      _ptr = Pointer[A]
+    end
+
+  new init(from: A^, len: USize) =&gt;
+    &quot;&quot;&quot;
+    Create an array of len elements, all initialised to the given value.
+    &quot;&quot;&quot;
+    _size = len
+
+    if len &gt; 0 then
+      _alloc = len.next_pow2().max(len).max(8)
+      _ptr = Pointer[A]._alloc(_alloc)
+
+      var i: USize = 0
+
+      while i &lt; len do
+        _ptr._update(i, from)
+        i = i + 1
+      end
+    else
+      _alloc = 0
+      _ptr = Pointer[A]
+    end
+
+  new from_cpointer(ptr: Pointer[A], len: USize, alloc: USize = 0) =&gt;
+    &quot;&quot;&quot;
+    Create an array from a C-style pointer and length. The contents are not
+    copied.
+    &quot;&quot;&quot;
+    _size = len
+
+    if alloc &gt; len then
+      _alloc = alloc
+    else
+      _alloc = len
+    end
+
+    _ptr = ptr
+
+  fun _copy_to(
+    ptr: Pointer[this-&gt;A!],
+    copy_len: USize,
+    from_offset: USize = 0,
+    to_offset: USize = 0)
+  =&gt;
+    &quot;&quot;&quot;
+    Copy copy_len elements from this to that at specified offsets.
+    &quot;&quot;&quot;
+    _ptr._offset(from_offset)._copy_to(ptr._offset(to_offset), copy_len)
+
+  fun cpointer(offset: USize = 0): Pointer[A] tag =&gt;
+    &quot;&quot;&quot;
+    Return the underlying C-style pointer.
+    &quot;&quot;&quot;
+    _ptr._offset(offset)
+
+  fun size(): USize =&gt;
+    &quot;&quot;&quot;
+    The number of elements in the array.
+    &quot;&quot;&quot;
+    _size
+
+  fun space(): USize =&gt;
+    &quot;&quot;&quot;
+    The available space in the array.
+    &quot;&quot;&quot;
+    _alloc
+
+  fun ref reserve(len: USize) =&gt;
+    &quot;&quot;&quot;
+    Reserve space for len elements, including whatever elements are already in
+    the array. Array space grows geometrically.
+    &quot;&quot;&quot;
+    if _alloc &lt; len then
+      _alloc = len.next_pow2().max(len).max(8)
+      _ptr = _ptr._realloc(_alloc)
+    end
+
+  fun ref compact() =&gt;
+    &quot;&quot;&quot;
+    Try to remove unused space, making it available for garbage collection. The
+    request may be ignored.
+    &quot;&quot;&quot;
+    if _size &lt;= (512 / _ptr._element_size()) then
+      if _size.next_pow2() != _alloc.next_pow2() then
+        _alloc = _size.next_pow2()
+        let old_ptr = _ptr = Pointer[A]._alloc(_alloc)
+        _ptr._consume_from(consume old_ptr, _size)
+      end
+    elseif _size &lt; _alloc then
+      _alloc = _size
+      let old_ptr = _ptr = Pointer[A]._alloc(_alloc)
+      _ptr._consume_from(consume old_ptr, _size)
+    end
+
+  fun ref undefined[B: (A &amp; Real[B] val &amp; Number) = A](len: USize) =&gt;
+    &quot;&quot;&quot;
+    Resize to len elements, populating previously empty elements with random
+    memory. This is only allowed for an array of numbers.
+    &quot;&quot;&quot;
+    reserve(len)
+    _size = len
+
+  fun apply(i: USize): this-&gt;A ? =&gt;
+    &quot;&quot;&quot;
+    Get the i-th element, raising an error if the index is out of bounds.
+    &quot;&quot;&quot;
+    if i &lt; _size then
+      _ptr._apply(i)
+    else
+      error
+    end
+
+  fun ref update(i: USize, value: A): A^ ? =&gt;
+    &quot;&quot;&quot;
+    Change the i-th element, raising an error if the index is out of bounds.
+    &quot;&quot;&quot;
+    if i &lt; _size then
+      _ptr._update(i, consume value)
+    else
+      error
+    end
+
+  fun ref insert(i: USize, value: A) ? =&gt;
+    &quot;&quot;&quot;
+    Insert an element into the array. Elements after this are moved up by one
+    index, extending the array.
+    An out of bounds index raises an error.
+    &quot;&quot;&quot;
+    if i &lt;= _size then
+      reserve(_size + 1)
+      _ptr._offset(i)._insert(1, _size - i)
+      _ptr._update(i, consume value)
+      _size = _size + 1
+    else
+      error
+    end
+
+  fun ref delete(i: USize): A^ ? =&gt;
+    &quot;&quot;&quot;
+    Delete an element from the array. Elements after this are moved down by one
+    index, compacting the array.
+    An out of bounds index raises an error.
+    The deleted element is returned.
+    &quot;&quot;&quot;
+    if i &lt; _size then
+      _size = _size - 1
+      _ptr._offset(i)._delete(1, _size - i)
+    else
+      error
+    end
+
+  fun ref truncate(len: USize) =&gt;
+    &quot;&quot;&quot;
+    Truncate an array to the given length, discarding excess elements. If the
+    array is already smaller than len, do nothing.
+    &quot;&quot;&quot;
+    _size = _size.min(len)
+
+  fun ref trim_in_place(from: USize = 0, to: USize = -1) =&gt;
+    &quot;&quot;&quot;
+    Trim the array to a portion of itself, covering `from` until `to`.
+    Unlike slice, the operation does not allocate a new array nor copy elements.
+    &quot;&quot;&quot;
+    let last = _size.min(to)
+    let offset = last.min(from)
+
+    _size = last - offset
+    _alloc = _alloc - offset
+    _ptr = _ptr._offset(offset)
+
+  fun val trim(from: USize = 0, to: USize = -1): Array[A] val =&gt;
+    &quot;&quot;&quot;
+    Return a shared portion of this array, covering `from` until `to`.
+    Both the original and the new array are immutable, as they share memory.
+    The operation does not allocate a new array pointer nor copy elements.
+    &quot;&quot;&quot;
+    let last = _size.min(to)
+    let offset = last.min(from)
+
+    recover
+      let size' = last - offset
+      let alloc = _alloc - offset
+
+      if size' &gt; 0 then
+        from_cpointer(_ptr._offset(offset)._unsafe(), size', alloc)
+      else
+        create()
+      end
+    end
+
+  fun copy_to(
+    dst: Array[this-&gt;A!],
+    src_idx: USize,
+    dst_idx: USize,
+    len: USize)
+  =&gt;
+    &quot;&quot;&quot;
+    Copy len elements from this(src_idx) to dst(dst_idx).
+    &quot;&quot;&quot;
+    dst.reserve(dst_idx + len)
+    _ptr._offset(src_idx)._copy_to(dst._ptr._offset(dst_idx), len)
+
+    if dst._size &lt; (dst_idx + len) then
+      dst._size = dst_idx + len
+    end
+
+  fun ref remove(i: USize, n: USize) =&gt;
+    &quot;&quot;&quot;
+    Remove n elements from the array, beginning at index i.
+    &quot;&quot;&quot;
+    if i &lt; _size then
+      let count = n.min(_size - i)
+      _size = _size - count
+      _ptr._offset(i)._delete(count, _size - i)
+    end
+
+  fun ref clear() =&gt;
+    &quot;&quot;&quot;
+    Remove all elements from the array.
+    &quot;&quot;&quot;
+    _size = 0
+
+  fun ref push(value: A) =&gt;
+    &quot;&quot;&quot;
+    Add an element to the end of the array.
+    &quot;&quot;&quot;
+    reserve(_size + 1)
+    _ptr._update(_size, consume value)
+    _size = _size + 1
+
+  fun ref pop(): A^ ? =&gt;
+    &quot;&quot;&quot;
+    Remove an element from the end of the array.
+    The removed element is returned.
+    &quot;&quot;&quot;
+    delete(_size - 1)?
+
+  fun ref unshift(value: A) =&gt;
+    &quot;&quot;&quot;
+    Add an element to the beginning of the array.
+    &quot;&quot;&quot;
+    try
+      insert(0, consume value)?
+    end
+
+  fun ref shift(): A^ ? =&gt;
+    &quot;&quot;&quot;
+    Remove an element from the beginning of the array.
+    The removed element is returned.
+    &quot;&quot;&quot;
+    delete(0)?
+
+  fun ref append(
+    seq: (ReadSeq[A] &amp; ReadElement[A^]),
+    offset: USize = 0,
+    len: USize = -1)
+  =&gt;
+    &quot;&quot;&quot;
+    Append the elements from a sequence, starting from the given offset.
+    &quot;&quot;&quot;
+    if offset &gt;= seq.size() then
+      return
+    end
+
+    let copy_len = len.min(seq.size() - offset)
+    reserve(_size + copy_len)
+
+    var n = USize(0)
+
+    try
+      while n &lt; copy_len do
+        _ptr._update(_size + n, seq(offset + n)?)
+
+        n = n + 1
+      end
+    end
+
+    _size = _size + n
+
+  fun ref concat(iter: Iterator[A^], offset: USize = 0, len: USize = -1) =&gt;
+    &quot;&quot;&quot;
+    Add len iterated elements to the end of the array, starting from the given
+    offset.
+    &quot;&quot;&quot;
+
+    var n = USize(0)
+
+    try
+      while n &lt; offset do
+        if iter.has_next() then
+          iter.next()?
+        else
+          return
+        end
+
+        n = n + 1
+      end
+    end
+
+    n = 0
+
+    // If a concrete len is specified, we take the caller at their word
+    // and reserve that much space, even though we can't verify that the
+    // iterator actually has that many elements available. Reserving ahead
+    // of time lets us take a fast path of direct pointer access.
+    if len != -1 then
+      reserve(_size + len)
+
+      try
+        while n &lt; len do
+          if iter.has_next() then
+            _ptr._update(_size + n, iter.next()?)
+          else
+            break
+          end
+
+          n = n + 1
+        end
+      end
+
+      _size = _size + n
+    else
+      try
+        while n &lt; len do
+          if iter.has_next() then
+            push(iter.next()?)
+          else
+            break
+          end
+
+          n = n + 1
+        end
+      end
+    end
+
+  fun find(
+    value: A!,
+    offset: USize = 0,
+    nth: USize = 0,
+    predicate: {(box-&gt;A!, box-&gt;A!): Bool} val = {(l, r) =&gt; l is r })
+    : USize ?
+  =&gt;
+    &quot;&quot;&quot;
+    Find the `nth` appearance of `value` from the beginning of the array,
+    starting at `offset` and examining higher indices, and using the supplied
+    `predicate` for comparisons. Returns the index of the value, or raise an
+    error if the value isn't present.
+
+    By default, the search starts at the first element of the array, returns
+    the first instance of `value` found, and uses object identity for
+    comparison.
+    &quot;&quot;&quot;
+    var i = offset
+    var n = USize(0)
+
+    while i &lt; _size do
+      if predicate(_ptr._apply(i), value) then
+        if n == nth then
+          return i
+        end
+
+        n = n + 1
+      end
+
+      i = i + 1
+    end
+
+    error
+
+  fun contains(
+    value: A!,
+    predicate: {(box-&gt;A!, box-&gt;A!): Bool} val =
+      {(l: box-&gt;A!, r: box-&gt;A!): Bool =&gt; l is r })
+    : Bool
+  =&gt;
+    &quot;&quot;&quot;
+    Returns true if the array contains `value`, false otherwise.
+    &quot;&quot;&quot;
+    var i = USize(0)
+
+    while i &lt; _size do
+      if predicate(_ptr._apply(i), value) then
+        return true
+      end
+
+      i = i + 1
+    end
+    false
+
+  fun rfind(
+    value: A!,
+    offset: USize = -1,
+    nth: USize = 0,
+    predicate: {(box-&gt;A!, box-&gt;A!): Bool} val =
+      {(l: box-&gt;A!, r: box-&gt;A!): Bool =&gt; l is r })
+    : USize ?
+  =&gt;
+    &quot;&quot;&quot;
+    Find the `nth` appearance of `value` from the end of the array, starting at
+    `offset` and examining lower indices, and using the supplied `predicate` for
+    comparisons. Returns the index of the value, or raise an error if the value
+    isn't present.
+
+    By default, the search starts at the last element of the array, returns the
+    first instance of `value` found, and uses object identity for comparison.
+    &quot;&quot;&quot;
+    if _size &gt; 0 then
+      var i = if offset &gt;= _size then _size - 1 else offset end
+      var n = USize(0)
+
+      repeat
+        if predicate(_ptr._apply(i), value) then
+          if n == nth then
+            return i
+          end
+
+          n = n + 1
+        end
+      until (i = i - 1) == 0
+      end
+    end
+
+    error
+
+  fun clone(): Array[this-&gt;A!]^ =&gt;
+    &quot;&quot;&quot;
+    Clone the array.
+    The new array contains references to the same elements that the old array
+    contains, the elements themselves are not cloned.
+    &quot;&quot;&quot;
+    let out = Array[this-&gt;A!](_size)
+    _ptr._copy_to(out._ptr, _size)
+    out._size = _size
+    out
+
+  fun slice(
+    from: USize = 0,
+    to: USize = -1,
+    step: USize = 1)
+    : Array[this-&gt;A!]^
+  =&gt;
+    &quot;&quot;&quot;
+    Create a new array that is a clone of a portion of this array. The range is
+    exclusive and saturated.
+    The new array contains references to the same elements that the old array
+    contains, the elements themselves are not cloned.
+    &quot;&quot;&quot;
+    let out = Array[this-&gt;A!]
+    let last = _size.min(to)
+    let len = last - from
+
+    if (last &gt; from) and (step &gt; 0) then
+      out.reserve((len + (step - 1)) / step)
+
+      if step == 1 then
+        copy_to(out, from, 0, len)
+      else
+        try
+          var i = from
+
+          while i &lt; last do
+            out.push(this(i)?)
+            i = i + step
+          end
+        end
+      end
+    end
+
+    out
+
+  fun permute(indices: Iterator[USize]): Array[this-&gt;A!]^ ? =&gt;
+    &quot;&quot;&quot;
+    Create a new array with the elements permuted.
+    Permute to an arbitrary order that may include duplicates. An out of bounds
+    index raises an error.
+    The new array contains references to the same elements that the old array
+    contains, the elements themselves are not copied.
+    &quot;&quot;&quot;
+    let out = Array[this-&gt;A!]
+    for i in indices do
+      out.push(this(i)?)
+    end
+    out
+
+  fun reverse(): Array[this-&gt;A!]^ =&gt;
+    &quot;&quot;&quot;
+    Create a new array with the elements in reverse order.
+    The new array contains references to the same elements that the old array
+    contains, the elements themselves are not copied.
+    &quot;&quot;&quot;
+    clone() .&gt; reverse_in_place()
+
+  fun ref reverse_in_place() =&gt;
+    &quot;&quot;&quot;
+    Reverse the array in place.
+    &quot;&quot;&quot;
+    if _size &gt; 1 then
+      var i: USize = 0
+      var j = _size - 1
+
+      while i &lt; j do
+        let x = _ptr._apply(i)
+        _ptr._update(i, _ptr._apply(j))
+        _ptr._update(j, x)
+        i = i + 1
+        j = j - 1
+      end
+    end
+
+  fun ref swap_elements(i: USize, j: USize) ? =&gt;
+    &quot;&quot;&quot;
+    Swap the element at index i with the element at index j.
+    If either i or j are out of bounds, an error is raised.
+    &quot;&quot;&quot;
+    if (i &gt;= _size) or (j &gt;= _size) then error end
+
+    let x = _ptr._apply(i)
+    _ptr._update(i, _ptr._apply(j))
+    _ptr._update(j, consume x)
+
+  fun keys(): ArrayKeys[A, this-&gt;Array[A]]^ =&gt;
+    &quot;&quot;&quot;
+    Return an iterator over the indices in the array.
+    &quot;&quot;&quot;
+    ArrayKeys[A, this-&gt;Array[A]](this)
+
+  fun values(): ArrayValues[A, this-&gt;Array[A]]^ =&gt;
+    &quot;&quot;&quot;
+    Return an iterator over the values in the array.
+    &quot;&quot;&quot;
+    ArrayValues[A, this-&gt;Array[A]](this)
+
+  fun pairs(): ArrayPairs[A, this-&gt;Array[A]]^ =&gt;
+    &quot;&quot;&quot;
+    Return an iterator over the (index, value) pairs in the array.
+    &quot;&quot;&quot;
+    ArrayPairs[A, this-&gt;Array[A]](this)
+
+class ArrayKeys[A, B: Array[A] #read] is Iterator[USize]
+  let _array: B
+  var _i: USize
+
+  new create(array: B) =&gt;
+    _array = array
+    _i = 0
+
+  fun has_next(): Bool =&gt;
+    _i &lt; _array.size()
+
+  fun ref next(): USize =&gt;
+    if _i &lt; _array.size() then
+      _i = _i + 1
+    else
+      _i
+    end
+
+class ArrayValues[A, B: Array[A] #read] is Iterator[B-&gt;A]
+  let _array: B
+  var _i: USize
+
+  new create(array: B) =&gt;
+    _array = array
+    _i = 0
+
+  fun has_next(): Bool =&gt;
+    _i &lt; _array.size()
+
+  fun ref next(): B-&gt;A ? =&gt;
+    _array(_i = _i + 1)?
+
+  fun ref rewind(): ArrayValues[A, B] =&gt;
+    _i = 0
+    this
+
+class ArrayPairs[A, B: Array[A] #read] is Iterator[(USize, B-&gt;A)]
+  let _array: B
+  var _i: USize
+
+  new create(array: B) =&gt;
+    _array = array
+    _i = 0
+
+  fun has_next(): Bool =&gt;
+    _i &lt; _array.size()
+
+  fun ref next(): (USize, B-&gt;A) ? =&gt;
+    (_i, _array(_i = _i + 1)?)
+
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../any/" class="btn btn-neutral float-right" title="any.pony">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../asio_event/" class="btn btn-neutral" title="asio_event.pony"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../asio_event/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../any/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../extra.js"></script>
+      <script src="../../search/require.js"></script>
+      <script src="../../search/search.js"></script>
+
+</body>
+</html>

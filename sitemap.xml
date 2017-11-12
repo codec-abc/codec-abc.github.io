@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-11-05</lastmod>
+     <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,24 +12,1016 @@
     
         
     <url>
-     <loc>/main_index/</loc>
-     <lastmod>2017-11-05</lastmod>
+     <loc>/.--index/</loc>
+     <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/main_SDLEvent/</loc>
-     <lastmod>2017-11-05</lastmod>
+     <loc>/.-ActorInFileStringDotPony/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/.-ARandomActor/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/.-SDLEvent/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/.-SdlQuitEvent/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/.-SDLEventTranslator/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/.-SDL2/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/.-GameTime/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/.-Main/</loc>
+     <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     
 
     
+        
+    <url>
+     <loc>/builtin--index/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-U8/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-U16/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-U32/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-U64/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ULong/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-USize/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-U128/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Unsigned/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Stringable/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-String/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-StringBytes/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-StringRunes/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-StdinNotify/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-DisposableActor/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Stdin/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ByteSeq/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ByteSeqIter/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-OutStream/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-StdStream/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-SourceLoc/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-I8/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-I16/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-I32/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-I64/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ILong/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ISize/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-I128/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Signed/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Seq/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Real/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Integer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-FloatingPoint/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Number/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Int/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ReadSeq/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ReadElement/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Pointer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Platform/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-None/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-MaybePointer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Iterator/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-F32/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-F64/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Float/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Env/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-DoNotOptimise/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Less/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Equal/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Greater/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Compare/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-HasEq/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Equatable/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Comparable/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Bool/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-AsioEventID/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-AsioEventNotify/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-AsioEvent/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Array/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ArrayKeys/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ArrayValues/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-ArrayPairs/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-Any/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/builtin-AmbientAuth/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/collections--index/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-Sort/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-Set/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-SetIs/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-HashSet/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-SetValues/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-RingBuffer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-Reverse/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-Range/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-Map/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-MapIs/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-HashMap/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-MapKeys/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-MapValues/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-MapPairs/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-ListNode/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-List/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-ListNodes/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-ListValues/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-Hashable/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-HashFunction/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-HashEq/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-HashIs/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-HashByteSeq/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-Flag/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/collections-Flags/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/debug--index/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/debug-DebugOut/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/debug-DebugErr/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/debug-DebugStream/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/debug-Debug/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/ponytest--index/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ponytest-UnitTest/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ponytest-TestList/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ponytest-ITest/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ponytest-TestHelper/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ponytest-PonyTest/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/time--index/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/time-Timers/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/time-TimerNotify/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/time-Timer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/time-Time/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/time-Nanos/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/time-Date/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/src/string/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/otherfile/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
         
     <url>
      <loc>/src/main/</loc>
-     <lastmod>2017-11-05</lastmod>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/unsigned/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/stringable/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/string--1/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/stdin/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/std_stream/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/source_loc/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/signed/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/seq/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/real/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/read_seq/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/pointer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/platform/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/none/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/maybe_pointer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/iterator/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/float/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/env/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/do_not_optimise/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/compare/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/bool/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/asio_event/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/array/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/any/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/ambient_auth/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/sort/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/set/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/ring_buffer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/reverse/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/range/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/map/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/list_node/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/list/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/hashable/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/flag/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/debug/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/unit_test/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/test_list/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/test_helper/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/pony_test/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/timers/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/timer_notify/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/timer/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/time/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/nanos/</loc>
+     <lastmod>2017-11-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/src/date/</loc>
+     <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
