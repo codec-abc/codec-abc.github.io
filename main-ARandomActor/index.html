@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>primitive SdlQuitEvent - ponydocTest</title>
+  <title>actor ARandomActor - main</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "primitive SdlQuitEvent";
-    var mkdocs_page_input_path = ".-SdlQuitEvent.md";
-    var mkdocs_page_url = "/.-SdlQuitEvent/";
+    var mkdocs_page_name = "actor ARandomActor";
+    var mkdocs_page_input_path = "main-ARandomActor.md";
+    var mkdocs_page_url = "/main-ARandomActor/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -36,7 +36,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> ponydocTest</a>
+        <a href=".." class="icon icon-home"> main</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -50,41 +50,31 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="..">ponydocTest</a>
+    <a class="" href="..">main</a>
 	    </li>
           
             <li class="toctree-l1">
 		
-    <span class="caption-text">package .</span>
+    <span class="caption-text">package main</span>
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../.--index/">Package</a>
+    <a class="" href="../main--index/">Package</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../.-ActorInFileStringDotPony/">actor ActorInFileStringDotPony</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../.-ARandomActor/">actor ARandomActor</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../.-SDLEvent/">struct SDLEvent</a>
+    <a class="" href="../main-ActorInFileStringDotPony/">actor ActorInFileStringDotPony</a>
                 </li>
                 <li class=" current">
                     
-    <a class="current" href="./">primitive SdlQuitEvent</a>
+    <a class="current" href="./">actor ARandomActor</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#sdlquitevent-src">SdlQuitEvent [Src]</a></li>
+    <li class="toctree-l3"><a href="#arandomactor-src">ARandomActor [Src]</a></li>
     
         <ul>
         
             <li><a class="toctree-l4" href="#constructors">Constructors</a></li>
-        
-            <li><a class="toctree-l4" href="#public-functions">Public Functions</a></li>
         
         </ul>
     
@@ -93,19 +83,27 @@
                 </li>
                 <li class="">
                     
-    <a class="" href="../.-SDLEventTranslator/">primitive SDLEventTranslator</a>
+    <a class="" href="../main-SDLEvent/">struct SDLEvent</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../.-SDL2/">primitive SDL2</a>
+    <a class="" href="../main-SdlQuitEvent/">primitive SdlQuitEvent</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../.-GameTime/">class GameTime</a>
+    <a class="" href="../main-SDLEventTranslator/">primitive SDLEventTranslator</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../.-Main/">actor Main</a>
+    <a class="" href="../main-SDL2/">primitive SDL2</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../main-GameTime/">class GameTime</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../main-Main/">actor Main</a>
                 </li>
     </ul>
 	    </li>
@@ -786,7 +784,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">ponydocTest</a>
+        <a href="..">main</a>
       </nav>
 
       
@@ -798,11 +796,11 @@
     
       
         
-          <li>package . &raquo;</li>
+          <li>package main &raquo;</li>
         
       
     
-    <li>primitive SdlQuitEvent</li>
+    <li>actor ARandomActor</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -812,60 +810,19 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="sdlquitevent-src">SdlQuitEvent <a href="../src/main/#36">[Src]</a></h1>
-<pre><code class="pony">primitive val SdlQuitEvent
+                <h1 id="arandomactor-src">ARandomActor <a href="../src/otherfile/#3">[Src]</a></h1>
+<pre><code class="pony">actor tag ARandomActor
 </code></pre>
 
 <h2 id="constructors">Constructors</h2>
-<h3 id="create-src">create <a href="../src/main/#36">[Src]</a></h3>
-<pre><code class="pony">new val create()
-: SdlQuitEvent val^
+<h3 id="create-src">create <a href="../src/otherfile/#4">[Src]</a></h3>
+<pre><code class="pony">new tag create()
+: ARandomActor tag^
 </code></pre>
 
 <h4 id="returns">Returns</h4>
 <ul>
-<li><a href="../.-SdlQuitEvent">SdlQuitEvent</a> val^</li>
-</ul>
-<hr />
-<h2 id="public-functions">Public Functions</h2>
-<h3 id="apply-src">apply <a href="../src/main/#37">[Src]</a></h3>
-<pre><code class="pony">fun box apply()
-: U32 val
-</code></pre>
-
-<h4 id="returns_1">Returns</h4>
-<ul>
-<li><a href="../builtin-U32">U32</a> val</li>
-</ul>
-<hr />
-<h3 id="eq-src">eq <a href="../src/main/#37">[Src]</a></h3>
-<pre><code class="pony">fun box eq(
-  that: SdlQuitEvent val)
-: Bool val
-</code></pre>
-
-<h4 id="parameters">Parameters</h4>
-<ul>
-<li>that: <a href="../.-SdlQuitEvent">SdlQuitEvent</a> val</li>
-</ul>
-<h4 id="returns_2">Returns</h4>
-<ul>
-<li><a href="../builtin-Bool">Bool</a> val</li>
-</ul>
-<hr />
-<h3 id="ne-src">ne <a href="../src/main/#37">[Src]</a></h3>
-<pre><code class="pony">fun box ne(
-  that: SdlQuitEvent val)
-: Bool val
-</code></pre>
-
-<h4 id="parameters_1">Parameters</h4>
-<ul>
-<li>that: <a href="../.-SdlQuitEvent">SdlQuitEvent</a> val</li>
-</ul>
-<h4 id="returns_3">Returns</h4>
-<ul>
-<li><a href="../builtin-Bool">Bool</a> val</li>
+<li><a href="../main-ARandomActor">ARandomActor</a> tag^</li>
 </ul>
 <hr />
               
@@ -875,10 +832,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../.-SDLEventTranslator/" class="btn btn-neutral float-right" title="primitive SDLEventTranslator">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../main-SDLEvent/" class="btn btn-neutral float-right" title="struct SDLEvent">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../.-SDLEvent/" class="btn btn-neutral" title="struct SDLEvent"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../main-ActorInFileStringDotPony/" class="btn btn-neutral" title="actor ActorInFileStringDotPony"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -904,10 +861,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../.-SDLEvent/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../main-ActorInFileStringDotPony/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../.-SDLEventTranslator/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../main-SDLEvent/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

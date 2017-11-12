@@ -12,55 +12,55 @@
     
         
     <url>
-     <loc>/.--index/</loc>
+     <loc>/main--index/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/.-ActorInFileStringDotPony/</loc>
+     <loc>/main-ActorInFileStringDotPony/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/.-ARandomActor/</loc>
+     <loc>/main-ARandomActor/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/.-SDLEvent/</loc>
+     <loc>/main-SDLEvent/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/.-SdlQuitEvent/</loc>
+     <loc>/main-SdlQuitEvent/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/.-SDLEventTranslator/</loc>
+     <loc>/main-SDLEventTranslator/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/.-SDL2/</loc>
+     <loc>/main-SDL2/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/.-GameTime/</loc>
+     <loc>/main-GameTime/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/.-Main/</loc>
+     <loc>/main-Main/</loc>
      <lastmod>2017-11-12</lastmod>
      <changefreq>daily</changefreq>
     </url>

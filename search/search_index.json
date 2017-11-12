@@ -2,471 +2,471 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Packages\n\n\n\n\n.\n\n\nbuiltin\n\n\ncollections\n\n\ndebug\n\n\nponytest\n\n\ntime", 
-            "title": "ponydocTest"
+            "text": "Packages\n\n\n\n\nmain\n\n\nbuiltin\n\n\ncollections\n\n\ndebug\n\n\nponytest\n\n\ntime", 
+            "title": "main"
         }, 
         {
-            "location": "/.--index/", 
-            "text": "No package doc string provided for ..\n\n\nPublic Types\n\n\n\n\nactor ActorInFileStringDotPony\n\n\nactor ARandomActor\n\n\nstruct SDLEvent\n\n\nprimitive SdlQuitEvent\n\n\nprimitive SDLEventTranslator\n\n\nprimitive SDL2\n\n\nclass GameTime\n\n\nactor Main", 
+            "location": "/main--index/", 
+            "text": "No package doc string provided for main.\n\n\nPublic Types\n\n\n\n\nactor ActorInFileStringDotPony\n\n\nactor ARandomActor\n\n\nstruct SDLEvent\n\n\nprimitive SdlQuitEvent\n\n\nprimitive SDLEventTranslator\n\n\nprimitive SDL2\n\n\nclass GameTime\n\n\nactor Main", 
             "title": "Package"
         }, 
         {
-            "location": "/.--index/#public-types", 
+            "location": "/main--index/#public-types", 
             "text": "actor ActorInFileStringDotPony  actor ARandomActor  struct SDLEvent  primitive SdlQuitEvent  primitive SDLEventTranslator  primitive SDL2  class GameTime  actor Main", 
             "title": "Public Types"
         }, 
         {
-            "location": "/.-ActorInFileStringDotPony/", 
+            "location": "/main-ActorInFileStringDotPony/", 
             "text": "ActorInFileStringDotPony \n[Src]\n\n\nactor tag ActorInFileStringDotPony\n\n\n\n\nConstructors\n\n\ncreate \n[Src]\n\n\nnew tag create()\n: ActorInFileStringDotPony tag^\n\n\n\n\nReturns\n\n\n\n\nActorInFileStringDotPony\n tag^", 
             "title": "actor ActorInFileStringDotPony"
         }, 
         {
-            "location": "/.-ActorInFileStringDotPony/#actorinfilestringdotpony-src", 
+            "location": "/main-ActorInFileStringDotPony/#actorinfilestringdotpony-src", 
             "text": "actor tag ActorInFileStringDotPony", 
             "title": "ActorInFileStringDotPony [Src]"
         }, 
         {
-            "location": "/.-ActorInFileStringDotPony/#constructors", 
+            "location": "/main-ActorInFileStringDotPony/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-ActorInFileStringDotPony/#create-src", 
+            "location": "/main-ActorInFileStringDotPony/#create-src", 
             "text": "new tag create()\n: ActorInFileStringDotPony tag^", 
             "title": "create [Src]"
         }, 
         {
-            "location": "/.-ActorInFileStringDotPony/#returns", 
+            "location": "/main-ActorInFileStringDotPony/#returns", 
             "text": "ActorInFileStringDotPony  tag^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-ARandomActor/", 
+            "location": "/main-ARandomActor/", 
             "text": "ARandomActor \n[Src]\n\n\nactor tag ARandomActor\n\n\n\n\nConstructors\n\n\ncreate \n[Src]\n\n\nnew tag create()\n: ARandomActor tag^\n\n\n\n\nReturns\n\n\n\n\nARandomActor\n tag^", 
             "title": "actor ARandomActor"
         }, 
         {
-            "location": "/.-ARandomActor/#arandomactor-src", 
+            "location": "/main-ARandomActor/#arandomactor-src", 
             "text": "actor tag ARandomActor", 
             "title": "ARandomActor [Src]"
         }, 
         {
-            "location": "/.-ARandomActor/#constructors", 
+            "location": "/main-ARandomActor/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-ARandomActor/#create-src", 
+            "location": "/main-ARandomActor/#create-src", 
             "text": "new tag create()\n: ARandomActor tag^", 
             "title": "create [Src]"
         }, 
         {
-            "location": "/.-ARandomActor/#returns", 
+            "location": "/main-ARandomActor/#returns", 
             "text": "ARandomActor  tag^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDLEvent/", 
+            "location": "/main-SDLEvent/", 
             "text": "SDLEvent \n[Src]\n\n\nstruct ref SDLEvent\n\n\n\n\nConstructors\n\n\ncreate \n[Src]\n\n\nnew ref create()\n: SDLEvent ref^\n\n\n\n\nReturns\n\n\n\n\nSDLEvent\n ref^\n\n\n\n\n\n\nPublic fields\n\n\n\n\nvar array: \n[Src]\n \nArray\n[\nU8\n val] ref", 
             "title": "struct SDLEvent"
         }, 
         {
-            "location": "/.-SDLEvent/#sdlevent-src", 
+            "location": "/main-SDLEvent/#sdlevent-src", 
             "text": "struct ref SDLEvent", 
             "title": "SDLEvent [Src]"
         }, 
         {
-            "location": "/.-SDLEvent/#constructors", 
+            "location": "/main-SDLEvent/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-SDLEvent/#create-src", 
+            "location": "/main-SDLEvent/#create-src", 
             "text": "new ref create()\n: SDLEvent ref^", 
             "title": "create [Src]"
         }, 
         {
-            "location": "/.-SDLEvent/#returns", 
+            "location": "/main-SDLEvent/#returns", 
             "text": "SDLEvent  ref^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDLEvent/#public-fields", 
+            "location": "/main-SDLEvent/#public-fields", 
             "text": "var array:  [Src]   Array [ U8  val] ref", 
             "title": "Public fields"
         }, 
         {
-            "location": "/.-SdlQuitEvent/", 
+            "location": "/main-SdlQuitEvent/", 
             "text": "SdlQuitEvent \n[Src]\n\n\nprimitive val SdlQuitEvent\n\n\n\n\nConstructors\n\n\ncreate \n[Src]\n\n\nnew val create()\n: SdlQuitEvent val^\n\n\n\n\nReturns\n\n\n\n\nSdlQuitEvent\n val^\n\n\n\n\n\n\nPublic Functions\n\n\napply \n[Src]\n\n\nfun box apply()\n: U32 val\n\n\n\n\nReturns\n\n\n\n\nU32\n val\n\n\n\n\n\n\neq \n[Src]\n\n\nfun box eq(\n  that: SdlQuitEvent val)\n: Bool val\n\n\n\n\nParameters\n\n\n\n\nthat: \nSdlQuitEvent\n val\n\n\n\n\nReturns\n\n\n\n\nBool\n val\n\n\n\n\n\n\nne \n[Src]\n\n\nfun box ne(\n  that: SdlQuitEvent val)\n: Bool val\n\n\n\n\nParameters\n\n\n\n\nthat: \nSdlQuitEvent\n val\n\n\n\n\nReturns\n\n\n\n\nBool\n val", 
             "title": "primitive SdlQuitEvent"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#sdlquitevent-src", 
+            "location": "/main-SdlQuitEvent/#sdlquitevent-src", 
             "text": "primitive val SdlQuitEvent", 
             "title": "SdlQuitEvent [Src]"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#constructors", 
+            "location": "/main-SdlQuitEvent/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#create-src", 
+            "location": "/main-SdlQuitEvent/#create-src", 
             "text": "new val create()\n: SdlQuitEvent val^", 
             "title": "create [Src]"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#returns", 
+            "location": "/main-SdlQuitEvent/#returns", 
             "text": "SdlQuitEvent  val^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#public-functions", 
+            "location": "/main-SdlQuitEvent/#public-functions", 
             "text": "", 
             "title": "Public Functions"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#apply-src", 
+            "location": "/main-SdlQuitEvent/#apply-src", 
             "text": "fun box apply()\n: U32 val", 
             "title": "apply [Src]"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#returns_1", 
+            "location": "/main-SdlQuitEvent/#returns_1", 
             "text": "U32  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#eq-src", 
+            "location": "/main-SdlQuitEvent/#eq-src", 
             "text": "fun box eq(\n  that: SdlQuitEvent val)\n: Bool val", 
             "title": "eq [Src]"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#parameters", 
+            "location": "/main-SdlQuitEvent/#parameters", 
             "text": "that:  SdlQuitEvent  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#returns_2", 
+            "location": "/main-SdlQuitEvent/#returns_2", 
             "text": "Bool  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#ne-src", 
+            "location": "/main-SdlQuitEvent/#ne-src", 
             "text": "fun box ne(\n  that: SdlQuitEvent val)\n: Bool val", 
             "title": "ne [Src]"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#parameters_1", 
+            "location": "/main-SdlQuitEvent/#parameters_1", 
             "text": "that:  SdlQuitEvent  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-SdlQuitEvent/#returns_3", 
+            "location": "/main-SdlQuitEvent/#returns_3", 
             "text": "Bool  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDLEventTranslator/", 
+            "location": "/main-SDLEventTranslator/", 
             "text": "SDLEventTranslator \n[Src]\n\n\nprimitive val SDLEventTranslator\n\n\n\n\nConstructors\n\n\ncreate \n[Src]\n\n\nnew val create()\n: SDLEventTranslator val^\n\n\n\n\nReturns\n\n\n\n\nSDLEventTranslator\n val^\n\n\n\n\n\n\nPublic Functions\n\n\ntype_of_event \n[Src]\n\n\nfun box type_of_event(\n  event: SDLEvent ref)\n: U32 val\n\n\n\n\nParameters\n\n\n\n\nevent: \nSDLEvent\n ref\n\n\n\n\nReturns\n\n\n\n\nU32\n val\n\n\n\n\n\n\neq \n[Src]\n\n\nfun box eq(\n  that: SDLEventTranslator val)\n: Bool val\n\n\n\n\nParameters\n\n\n\n\nthat: \nSDLEventTranslator\n val\n\n\n\n\nReturns\n\n\n\n\nBool\n val\n\n\n\n\n\n\nne \n[Src]\n\n\nfun box ne(\n  that: SDLEventTranslator val)\n: Bool val\n\n\n\n\nParameters\n\n\n\n\nthat: \nSDLEventTranslator\n val\n\n\n\n\nReturns\n\n\n\n\nBool\n val", 
             "title": "primitive SDLEventTranslator"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#sdleventtranslator-src", 
+            "location": "/main-SDLEventTranslator/#sdleventtranslator-src", 
             "text": "primitive val SDLEventTranslator", 
             "title": "SDLEventTranslator [Src]"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#constructors", 
+            "location": "/main-SDLEventTranslator/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#create-src", 
+            "location": "/main-SDLEventTranslator/#create-src", 
             "text": "new val create()\n: SDLEventTranslator val^", 
             "title": "create [Src]"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#returns", 
+            "location": "/main-SDLEventTranslator/#returns", 
             "text": "SDLEventTranslator  val^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#public-functions", 
+            "location": "/main-SDLEventTranslator/#public-functions", 
             "text": "", 
             "title": "Public Functions"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#type_of_event-src", 
+            "location": "/main-SDLEventTranslator/#type_of_event-src", 
             "text": "fun box type_of_event(\n  event: SDLEvent ref)\n: U32 val", 
             "title": "type_of_event [Src]"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#parameters", 
+            "location": "/main-SDLEventTranslator/#parameters", 
             "text": "event:  SDLEvent  ref", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#returns_1", 
+            "location": "/main-SDLEventTranslator/#returns_1", 
             "text": "U32  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#eq-src", 
+            "location": "/main-SDLEventTranslator/#eq-src", 
             "text": "fun box eq(\n  that: SDLEventTranslator val)\n: Bool val", 
             "title": "eq [Src]"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#parameters_1", 
+            "location": "/main-SDLEventTranslator/#parameters_1", 
             "text": "that:  SDLEventTranslator  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#returns_2", 
+            "location": "/main-SDLEventTranslator/#returns_2", 
             "text": "Bool  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#ne-src", 
+            "location": "/main-SDLEventTranslator/#ne-src", 
             "text": "fun box ne(\n  that: SDLEventTranslator val)\n: Bool val", 
             "title": "ne [Src]"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#parameters_2", 
+            "location": "/main-SDLEventTranslator/#parameters_2", 
             "text": "that:  SDLEventTranslator  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-SDLEventTranslator/#returns_3", 
+            "location": "/main-SDLEventTranslator/#returns_3", 
             "text": "Bool  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDL2/", 
+            "location": "/main-SDL2/", 
             "text": "SDL2 \n[Src]\n\n\nprimitive val SDL2\n\n\n\n\nConstructors\n\n\ncreate \n[Src]\n\n\nnew val create()\n: SDL2 val^\n\n\n\n\nReturns\n\n\n\n\nSDL2\n val^\n\n\n\n\n\n\nPublic Functions\n\n\ninit_video \n[Src]\n\n\nfun box init_video()\n: U32 val\n\n\n\n\nReturns\n\n\n\n\nU32\n val\n\n\n\n\n\n\nwindow_shown \n[Src]\n\n\nfun box window_shown()\n: U32 val\n\n\n\n\nReturns\n\n\n\n\nU32\n val\n\n\n\n\n\n\nrenderer_accelerated \n[Src]\n\n\nfun box renderer_accelerated()\n: U32 val\n\n\n\n\nReturns\n\n\n\n\nU32\n val\n\n\n\n\n\n\nrenderer_presentvsync \n[Src]\n\n\nfun box renderer_presentvsync()\n: U32 val\n\n\n\n\nReturns\n\n\n\n\nU32\n val\n\n\n\n\n\n\neq \n[Src]\n\n\nfun box eq(\n  that: SDL2 val)\n: Bool val\n\n\n\n\nParameters\n\n\n\n\nthat: \nSDL2\n val\n\n\n\n\nReturns\n\n\n\n\nBool\n val\n\n\n\n\n\n\nne \n[Src]\n\n\nfun box ne(\n  that: SDL2 val)\n: Bool val\n\n\n\n\nParameters\n\n\n\n\nthat: \nSDL2\n val\n\n\n\n\nReturns\n\n\n\n\nBool\n val", 
             "title": "primitive SDL2"
         }, 
         {
-            "location": "/.-SDL2/#sdl2-src", 
+            "location": "/main-SDL2/#sdl2-src", 
             "text": "primitive val SDL2", 
             "title": "SDL2 [Src]"
         }, 
         {
-            "location": "/.-SDL2/#constructors", 
+            "location": "/main-SDL2/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-SDL2/#create-src", 
+            "location": "/main-SDL2/#create-src", 
             "text": "new val create()\n: SDL2 val^", 
             "title": "create [Src]"
         }, 
         {
-            "location": "/.-SDL2/#returns", 
+            "location": "/main-SDL2/#returns", 
             "text": "SDL2  val^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDL2/#public-functions", 
+            "location": "/main-SDL2/#public-functions", 
             "text": "", 
             "title": "Public Functions"
         }, 
         {
-            "location": "/.-SDL2/#init_video-src", 
+            "location": "/main-SDL2/#init_video-src", 
             "text": "fun box init_video()\n: U32 val", 
             "title": "init_video [Src]"
         }, 
         {
-            "location": "/.-SDL2/#returns_1", 
+            "location": "/main-SDL2/#returns_1", 
             "text": "U32  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDL2/#window_shown-src", 
+            "location": "/main-SDL2/#window_shown-src", 
             "text": "fun box window_shown()\n: U32 val", 
             "title": "window_shown [Src]"
         }, 
         {
-            "location": "/.-SDL2/#returns_2", 
+            "location": "/main-SDL2/#returns_2", 
             "text": "U32  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDL2/#renderer_accelerated-src", 
+            "location": "/main-SDL2/#renderer_accelerated-src", 
             "text": "fun box renderer_accelerated()\n: U32 val", 
             "title": "renderer_accelerated [Src]"
         }, 
         {
-            "location": "/.-SDL2/#returns_3", 
+            "location": "/main-SDL2/#returns_3", 
             "text": "U32  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDL2/#renderer_presentvsync-src", 
+            "location": "/main-SDL2/#renderer_presentvsync-src", 
             "text": "fun box renderer_presentvsync()\n: U32 val", 
             "title": "renderer_presentvsync [Src]"
         }, 
         {
-            "location": "/.-SDL2/#returns_4", 
+            "location": "/main-SDL2/#returns_4", 
             "text": "U32  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDL2/#eq-src", 
+            "location": "/main-SDL2/#eq-src", 
             "text": "fun box eq(\n  that: SDL2 val)\n: Bool val", 
             "title": "eq [Src]"
         }, 
         {
-            "location": "/.-SDL2/#parameters", 
+            "location": "/main-SDL2/#parameters", 
             "text": "that:  SDL2  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-SDL2/#returns_5", 
+            "location": "/main-SDL2/#returns_5", 
             "text": "Bool  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-SDL2/#ne-src", 
+            "location": "/main-SDL2/#ne-src", 
             "text": "fun box ne(\n  that: SDL2 val)\n: Bool val", 
             "title": "ne [Src]"
         }, 
         {
-            "location": "/.-SDL2/#parameters_1", 
+            "location": "/main-SDL2/#parameters_1", 
             "text": "that:  SDL2  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-SDL2/#returns_6", 
+            "location": "/main-SDL2/#returns_6", 
             "text": "Bool  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-GameTime/", 
+            "location": "/main-GameTime/", 
             "text": "GameTime \n[Src]\n\n\nclass val GameTime\n\n\n\n\nConstructors\n\n\ncreate \n[Src]\n\n\nnew iso create(\n  s: I64 val,\n  ns: I64 val)\n: GameTime iso^\n\n\n\n\nParameters\n\n\n\n\ns: \nI64\n val\n\n\nns: \nI64\n val\n\n\n\n\nReturns\n\n\n\n\nGameTime\n iso^\n\n\n\n\n\n\nPublic fields\n\n\n\n\nlet second: \n[Src]\n \nI64\n val\n\n\n\n\n\n\n\n\nlet nano_second: \n[Src]\n \nI64\n val\n\n\n\n\n\n\nPublic Functions\n\n\ndelta \n[Src]\n\n\nfun box delta(\n  s: I64 val,\n  ns: I64 val)\n: GameTime val^\n\n\n\n\nParameters\n\n\n\n\ns: \nI64\n val\n\n\nns: \nI64\n val\n\n\n\n\nReturns\n\n\n\n\nGameTime\n val^", 
             "title": "class GameTime"
         }, 
         {
-            "location": "/.-GameTime/#gametime-src", 
+            "location": "/main-GameTime/#gametime-src", 
             "text": "class val GameTime", 
             "title": "GameTime [Src]"
         }, 
         {
-            "location": "/.-GameTime/#constructors", 
+            "location": "/main-GameTime/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-GameTime/#create-src", 
+            "location": "/main-GameTime/#create-src", 
             "text": "new iso create(\n  s: I64 val,\n  ns: I64 val)\n: GameTime iso^", 
             "title": "create [Src]"
         }, 
         {
-            "location": "/.-GameTime/#parameters", 
+            "location": "/main-GameTime/#parameters", 
             "text": "s:  I64  val  ns:  I64  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-GameTime/#returns", 
+            "location": "/main-GameTime/#returns", 
             "text": "GameTime  iso^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-GameTime/#public-fields", 
+            "location": "/main-GameTime/#public-fields", 
             "text": "let second:  [Src]   I64  val     let nano_second:  [Src]   I64  val", 
             "title": "Public fields"
         }, 
         {
-            "location": "/.-GameTime/#public-functions", 
+            "location": "/main-GameTime/#public-functions", 
             "text": "", 
             "title": "Public Functions"
         }, 
         {
-            "location": "/.-GameTime/#delta-src", 
+            "location": "/main-GameTime/#delta-src", 
             "text": "fun box delta(\n  s: I64 val,\n  ns: I64 val)\n: GameTime val^", 
             "title": "delta [Src]"
         }, 
         {
-            "location": "/.-GameTime/#parameters_1", 
+            "location": "/main-GameTime/#parameters_1", 
             "text": "s:  I64  val  ns:  I64  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-GameTime/#returns_1", 
+            "location": "/main-GameTime/#returns_1", 
             "text": "GameTime  val^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-Main/", 
+            "location": "/main-Main/", 
             "text": "Main \n[Src]\n\n\nactor tag Main\n\n\n\n\nConstructors\n\n\ncreate \n[Src]\n\n\nnew tag create(\n  env: Env val)\n: Main tag^\n\n\n\n\nParameters\n\n\n\n\nenv: \nEnv\n val\n\n\n\n\nReturns\n\n\n\n\nMain\n tag^\n\n\n\n\n\n\nPublic fields\n\n\n\n\nvar window: \n[Src]\n \nPointer\n[_SDLWindow val] ref\n\n\n\n\n\n\n\n\nvar renderer: \n[Src]\n \nPointer\n[_SDLRenderer val] ref\n\n\n\n\n\n\n\n\nvar is_done: \n[Src]\n \nBool\n val\n\n\n\n\n\n\n\n\nvar game_time: \n[Src]\n \nGameTime\n val\n\n\n\n\n\n\n\n\nvar frame_index: \n[Src]\n \nU64\n val\n\n\n\n\n\n\nPublic Behaviours\n\n\ntick \n[Src]\n\n\nbe tick()\n\n\n\n\n\n\nPublic Functions\n\n\nloop \n[Src]\n\n\nfun ref loop(\n  delta: GameTime val)\n: None val\n\n\n\n\nParameters\n\n\n\n\ndelta: \nGameTime\n val\n\n\n\n\nReturns\n\n\n\n\nNone\n val\n\n\n\n\n\n\nquit \n[Src]\n\n\nfun ref quit()\n: None val\n\n\n\n\nReturns\n\n\n\n\nNone\n val", 
             "title": "actor Main"
         }, 
         {
-            "location": "/.-Main/#main-src", 
+            "location": "/main-Main/#main-src", 
             "text": "actor tag Main", 
             "title": "Main [Src]"
         }, 
         {
-            "location": "/.-Main/#constructors", 
+            "location": "/main-Main/#constructors", 
             "text": "", 
             "title": "Constructors"
         }, 
         {
-            "location": "/.-Main/#create-src", 
+            "location": "/main-Main/#create-src", 
             "text": "new tag create(\n  env: Env val)\n: Main tag^", 
             "title": "create [Src]"
         }, 
         {
-            "location": "/.-Main/#parameters", 
+            "location": "/main-Main/#parameters", 
             "text": "env:  Env  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-Main/#returns", 
+            "location": "/main-Main/#returns", 
             "text": "Main  tag^", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-Main/#public-fields", 
+            "location": "/main-Main/#public-fields", 
             "text": "var window:  [Src]   Pointer [_SDLWindow val] ref     var renderer:  [Src]   Pointer [_SDLRenderer val] ref     var is_done:  [Src]   Bool  val     var game_time:  [Src]   GameTime  val     var frame_index:  [Src]   U64  val", 
             "title": "Public fields"
         }, 
         {
-            "location": "/.-Main/#public-behaviours", 
+            "location": "/main-Main/#public-behaviours", 
             "text": "", 
             "title": "Public Behaviours"
         }, 
         {
-            "location": "/.-Main/#tick-src", 
+            "location": "/main-Main/#tick-src", 
             "text": "be tick()", 
             "title": "tick [Src]"
         }, 
         {
-            "location": "/.-Main/#public-functions", 
+            "location": "/main-Main/#public-functions", 
             "text": "", 
             "title": "Public Functions"
         }, 
         {
-            "location": "/.-Main/#loop-src", 
+            "location": "/main-Main/#loop-src", 
             "text": "fun ref loop(\n  delta: GameTime val)\n: None val", 
             "title": "loop [Src]"
         }, 
         {
-            "location": "/.-Main/#parameters_1", 
+            "location": "/main-Main/#parameters_1", 
             "text": "delta:  GameTime  val", 
             "title": "Parameters"
         }, 
         {
-            "location": "/.-Main/#returns_1", 
+            "location": "/main-Main/#returns_1", 
             "text": "None  val", 
             "title": "Returns"
         }, 
         {
-            "location": "/.-Main/#quit-src", 
+            "location": "/main-Main/#quit-src", 
             "text": "fun ref quit()\n: None val", 
             "title": "quit [Src]"
         }, 
         {
-            "location": "/.-Main/#returns_2", 
+            "location": "/main-Main/#returns_2", 
             "text": "None  val", 
             "title": "Returns"
         }, 
